@@ -6,7 +6,7 @@ This repository contains three JavaScript challenges that simulate real-world Ke
 
 ### 1. Chai Bora Ingredient Calculator ☕
 
-**File:** `chai-calculator.js`
+**File:** `chai.js`
 
 Calculates ingredients needed to make Kenyan tea (chai) based on the number of cups desired.
 
@@ -25,7 +25,7 @@ calculateChaiIngredients();
 
 ### 2. Boda Boda Ride Fare Estimator 🛵
 
-**File:** `boda-fare-calculator.js`
+**File:** `fare.js`
 
 Estimates the cost of a motorcycle taxi (boda boda) ride in Kenya.
 
@@ -44,7 +44,7 @@ calculateBodaFare();
 
 ### 3. Mobile Money Transaction Fee Estimator 📱
 
-**File:** `mobile-money-fee-calculator.js`
+**File:** `fee.js`
 
 Calculates transaction fees for mobile money transfers with Kenyan pricing rules.
 
