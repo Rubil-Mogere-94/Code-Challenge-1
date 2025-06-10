@@ -1,94 +1,72 @@
-# JavaScript Code Challenges: Kenyan-Themed Solutions
+# Kenyan Utilities - revised VS Code Edition
 
-This repository contains three JavaScript challenges that simulate real-world Kenyan scenarios. Each solution demonstrates practical JavaScript skills while incorporating local context.
+3 JavaScript programs for Kenyan daily life basic solution
 
-## Challenges
+## Programs Included
 
-### 1. Chai Bora Ingredient Calculator ☕
+1. **Chai Calculator** (`chai.js`) - Calculates ingredients needed for Kenyan tea
+2. **Boda-Boda Fare Calculator** (`fare.js`) - Calculates motorcycle taxi fares
+3. **Mobile Money Transaction Calculator** (`fee.js`) - Estimates transaction fees
 
-**File:** `chai.js`
+## Prerequisites
 
-Calculates ingredients needed to make Kenyan tea (chai) based on the number of cups desired.
+- [Node.js](https://nodejs.org/) installed on your computer
+- VS Code or any code editor
 
-**Features:**
-- Takes user input for number of cups
-- Calculates required water, milk, tea leaves, and sugar
-- Displays results in a clear format
-- Uses Kenyan measurements (ml, tablespoons)
+## Installation
 
-**Example Usage:**
-```javascript
-calculateChaiIngredients();
-// User enters: 3
-// Output: Ingredients for 3 cups of chai
+No installation required. Just download or clone the repository.
+
+## How to Run
+
+1. Open VS Code
+2. Open the folder containing these files
+3. Open the integrated terminal (Ctrl+` or View > Terminal)
+4. Run any program using Node.js:
+
+```bash
+cd chaiCalculator
+node chai.js
+cd ..
+cd bodaFareCalculator
+node fare.js
+cd ..
+cd mobileMoneyEstimator
+node fee.js
 ```
 
-### 2. Boda Boda Ride Fare Estimator 🛵
+## Program Details
 
-**File:** `fare.js`
+### 1. Chai Calculator (`chai.js`)
+Calculates ingredients needed to make Kenyan tea.
 
-Estimates the cost of a motorcycle taxi (boda boda) ride in Kenya.
+**How to use:**
+1. Run `node chai.js`
+2. Enter number of cups you want to make
+3. See the required ingredients
 
-**Features:**
-- Calculates fare based on distance
-- Includes base fare and per-km charge
-- Uses Kenyan slang in prompts and output
-- Shows fare breakdown (base + distance)
+### 2. Boda-Boda Fare Calculator (`fare.js`)
+Calculates motorcycle taxi fares in Kenya.
 
-**Example Usage:**
-```javascript
-calculateBodaFare();
-// User enters: 5 (km)
-// Output: Fare breakdown for 5km ride
-```
+**How to use:**
+1. Run `node fare.js`
+2. Enter distance in kilometers
+3. See the fare breakdown
 
-### 3. Mobile Money Transaction Fee Estimator 📱
+### 3. Mobile Money Calculator (`fee.js`)
+Estimates transaction fees for mobile money transfers.
 
-**File:** `fee.js`
+**How to use:**
+1. Run `node fee.js`
+2. Enter amount to send in KES
+3. See the transaction fee and total amount
 
-Calculates transaction fees for mobile money transfers with Kenyan pricing rules.
+## Troubleshooting
 
-**Features:**
-- 1.5% fee calculation with min/max limits
-- Input validation
-- Clear fee breakdown
-- Uses local terminology ("Unatuma Ngapi?")
+If you get errors:
+- Make sure Node.js is installed (run `node -v` in terminal)
+- Ensure you're running the commands in the correct directory
+- Check for any typos in the commands
 
-**Example Usage:**
-```javascript
-estimateTransactionFee();
-// User enters: 2000
-// Output: Transaction fee and total amount
-```
-
-## How to Use
-
-1. Clone this repository
-2. Open any challenge file in your JavaScript environment
-3. Call the respective function to test
-4. View results in console
-
-## Technical Details
-
-- Pure JavaScript (ES6+)
-- Interactive prompts and console output
-- Demonstrates:
-  - Basic arithmetic
-  - Conditional logic
-  - Input validation
-  - String formatting
-  - Math functions
-
-## Kenyan Context
-
-All challenges incorporate authentic Kenyan elements:
-- Local measurements and pricing
-- Sheng (Kenyan slang) in interfaces
-- Real-world scenarios familiar to Kenyans
-
-## Author
-
-Rubil Mogere
-mogererubil@gmail.com  
-Jun 6 2025  
-
+## License
+MIT License - Free to use and modify
