@@ -1,7 +1,7 @@
 # Kenyan Utilities - revised VS Code Edition
 
-3 JavaScript programs for Kenyan daily life basic solution
-all 3 use readline interface
+- 3 JavaScript programs for Kenyan daily life basic solution
+- all 3 use readline interface
 ## Programs Included
 
 1. **Chai Calculator** (`chai.js`) - Calculates ingredients needed for Kenyan tea
