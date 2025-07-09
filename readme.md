@@ -7,6 +7,8 @@
 1. **Chai Calculator** (`chai.js`) - Calculates ingredients needed for Kenyan tea
 2. **Boda-Boda Fare Calculator** (`fare.js`) - Calculates motorcycle taxi fares
 3. **Mobile Money Transaction Calculator** (`fee.js`) - Estimates transaction fees
+4. **password generator** (`pass.js`) - generates random passwords
+
 
 ## Prerequisites
 
@@ -33,6 +35,9 @@ node fare.js
 cd ..
 cd mobileMoneyEstimator
 node fee.js
+cd ..
+cd password-generator
+node pass.js
 ```
 
 ## Program Details
@@ -60,6 +65,13 @@ Estimates transaction fees for mobile money transfers.
 1. Run `node fee.js`
 2. Enter amount to send in KES
 3. See the transaction fee and total amount
+
+### 4. password generator (`pass.js`)
+
+**How to use:**
+1. run `node pass.js`
+2. enter password length
+3. password is generated
 
 ## Troubleshooting
 
